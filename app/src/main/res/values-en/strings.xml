@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="beschrijving">Description:</string>
+    <string name="kunstenaar">Artist:</string>
+    <string name="materiaal">Material:</string>
+    <string name="ondergrond">Underlayer:</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Sierende Elementen</string>
+    <string name="kunstenaar">Kunstenaar:</string>
+    <string name="beschrijving">Beschrijving:</string>
+    <string name="materiaal">Materiaal:</string>
+    <string name="ondergrond">Ondergrond:</string>
+
+</resources>

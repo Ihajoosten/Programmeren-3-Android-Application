@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginBottom="2dp"
+    >
+
+    <ImageView
+        android:id="@+id/ivElement"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="570dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="12.5dp"
+        android:text="Titel"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvGeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="50dp"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:text="Geoligging"/>
+
+    <TextView
+        android:id="@+id/tvIdentification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginStart="450dp"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:text="identificatie"/>
+
+</RelativeLayout>
