@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -89,7 +87,7 @@ public class ElementRecyclerViewAdapter extends RecyclerView.Adapter<ElementRecy
 
 
     @Override
-    public void onBindViewHolder(@NonNull ElementViewHolder holder, int position) {
+    public void onBindViewHolder(ElementViewHolder holder, int position) {
         Element e = elementList.get(position);
         holder.title.setText(e.getTitle());
         holder.geo.setText(e.getGeographicalLocation());
@@ -134,9 +132,8 @@ public class ElementRecyclerViewAdapter extends RecyclerView.Adapter<ElementRecy
         return this.elementList.size();
     }
 
-    @NonNull
     @Override
-    public ElementViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ElementViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.activity_element_list,parent, false);
         return new ElementViewHolder(v);

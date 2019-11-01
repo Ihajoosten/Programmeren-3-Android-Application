@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Element implements Serializable {
 
-    //Dit is de class Blindwall, deze gegevens willen we gebruiken
+    //Dit is de class Element, deze gegevens willen we gebruiken
     private String identification;
     private String title;
     private String geographicalLocation;
