@@ -1,2 +1,2 @@
-# Programmeren-3-Android-Application
+# Programmeren-3-Android-Application [![Build Status](https://dev.azure.com/LucJoosten1234/LucJoosten1234/_apis/build/status/LucJoostenNL.Programmeren-3-Android-Application?branchName=master)](https://dev.azure.com/LucJoosten1234/LucJoosten1234/_build/latest?definitionId=7&branchName=master)
 I've made an Android application for my final assignment of part 3 programming. It persists data through an API. The data rendered into objects that are being displayed in a recyclerview
